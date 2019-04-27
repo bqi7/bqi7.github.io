@@ -1,0 +1,279 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* topbar */
+#topbar {
+    position: fixed;
+    z-index: 1;
+    transition: background-color 150ms linear;
+}
+
+#topbar.scrolled {
+    background-color: #676666;
+    transition: background-color 150ms linear;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 100vw;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+#topbar-contact:hover {
+    opacity: 0.6;
+}
+
+#topbar-brand:hover {
+    opacity: 0.6;
+}
+
+#topbar-projects:hover {
+    opacity: 0.6;
+}
+
+#topbar-about:hover {
+    opacity: 0.6;
+}
+
+#topbar-resume:hover {
+    opacity: 0.6;
+}
+
+#topbar-projects {
+    margin-left: 3vw;
+}
+
+#topbar-resume {
+    margin-left: 3vw;
+}
+
+#topbar-contact {
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
+
+#topbar-brand{
+    margin-left: 2vw;
+    background-color: rgba(255,255,255, 0.2);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding: 1px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 6px;
+    text-decoration: none;
+}
+
+/* main page */
+#main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/image.jpg");
+    background-size: cover;
+    color: white;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+    padding-top: 40vh;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+#name {
+    font-size: 55px;
+    padding: 5px 0px 5px 0px;
+    width: 30vw;
+    position: relative;
+    margin: auto;
+    /* border: 1px solid white; */
+}
+
+#occupations {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* about page */
+#about {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F2F0F0;
+}
+
+.subheading {
+    position: relative;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.line-border {
+    width: 80px;
+    height: 2px;
+    background: grey;
+    margin: auto;
+}
+
+.line-border-2 {
+    width: 200px;
+    height: 2px;
+    background: white;
+    margin: auto;
+}
+
+#about-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 9vh;
+}
+
+#about-text {
+    display: inline-block;
+    width: 38vw;
+    color: #333333;
+    text-align: left;
+    margin: auto;
+    margin-right: 30px;
+}
+
+#hi {
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    color: #333333;
+}
+
+#about-image {
+    display: inline-block;
+    margin: auto;
+}
+
+.em-wave {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    filter: grayscale(20%);
+}
+
+.em-wave:hover {
+    animation: wave 1s;
+}
+
+@keyframes wave {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+      }
+      
+      20%, 80% {
+        transform: translate3d(2px, 0, 0);
+      }
+    
+      30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+      }
+    
+      40%, 60% {
+        transform: translate3d(4px, 0, 0);
+      }
+}
+
+#face {
+    height: 325px;
+    width: auto;
+    margin: auto;
+    margin-left: 50px;
+    /* box-shadow: 5px 5px 5px grey; */
+    border-radius: 5%;
+    border-width: 1px;
+    border-color: #707070;
+    border-style: solid;
+}
+
+/* projects page */
+#projects {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #E5E0E0;
+}
+
+#big-container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.box {
+    height: 200px;
+    width: auto;
+    border-radius: 5%;
+    border-width: 1px;
+    border-color: #707070;
+    border-style: solid;
+    /* margin-left: 40px; */
+    margin-top: 40px;
+}
+
+#ant {
+    filter: grayscale(40%);
+}
+
+#git:hover {
+    opacity: 0.6;
+}
+
+#map:hover {
+    opacity: 0.6;
+}
+
+#ant:hover {
+    opacity: 0.6;
+}
+
+#yelp:hover {
+    opacity: 0.6;
+}
+
+#scheme:hover {
+    opacity: 0.6;
+}
+
+.project-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.text {
+    color: #333333;
+    text-align: center;
+    width: 20vw;
+}
