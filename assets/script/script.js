@@ -1,10 +1,12 @@
 $(document).ready(function() {
     // fade in/out effect for occupation texts
-    function runSequence(i) {       
+    function runSequence(i) {  
+        $("#display").stop(true, true);      
         if (words.length > i) {
             setTimeout(function() {
                 setTimeout('$("#occupations").fadeOut()', 1600);
-                document.getElementById("occupations").innerHTML = words[i];
+                // document.getElementById("occupations").innerHTML = words[i];
+                $("#occupations").text(words[i]);
                 $("#occupations").fadeIn(300);
                 runSequence(++i);
             }, 2000); 
