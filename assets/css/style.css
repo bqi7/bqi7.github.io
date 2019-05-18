@@ -67,12 +67,12 @@ li {
     margin-right: 2vw;
 }
 
-#topbar-brand{
+#topbar-brand {
     margin-left: 2vw;
     background-color: rgba(255,255,255, 0.2);
-    border-radius: 50%;
+    border-radius: 20%;
     border-style: solid;
-    border-width: 1px;
+    border-width: 1.2px;
     border-color: white;
     padding: 1px;
 }
@@ -123,7 +123,7 @@ li a {
 #about {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     background-color: #F2F0F0;
 }
 
@@ -154,10 +154,12 @@ li a {
     width: 100%;
     text-align: center;
     margin-top: 9vh;
+	display: flex;
+	justify-content: center;
 }
 
 #about-text {
-    display: inline-block;
+/*    display: inline-block;*/
     width: 38vw;
     color: #333333;
     text-align: left;
@@ -172,8 +174,9 @@ li a {
 }
 
 #about-image {
-    display: inline-block;
+/*    display: inline-block;*/
     margin: auto;
+	margin-left: 30px;
 }
 
 .em-wave {
@@ -220,7 +223,7 @@ li a {
 /* projects page */
 #projects {
     position: relative;
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     background-color: #E5E0E0;
 }
@@ -267,10 +270,17 @@ li a {
     opacity: 0.6;
 }
 
+#big-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
 .project-container {
-    display: inline-block;
+/*    display: inline-block;*/
     text-align: center;
 }
+
 
 .text {
     color: #333333;
