@@ -127,14 +127,6 @@ li a {
     background-color: #F2F0F0;
 }
 
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-/* Styles */
-	#about {
-		height: 50vh;
-	}
-}
-
 .subheading {
     position: relative;
     text-align: center;
@@ -294,4 +286,16 @@ li a {
     color: #333333;
     text-align: center;
     width: 20vw;
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+	#about {
+		height: 50vh;
+	}
+	
+	#projects {
+		height: 50vh;
+	}
 }
