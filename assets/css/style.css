@@ -127,6 +127,14 @@ li a {
     background-color: #F2F0F0;
 }
 
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+	#about {
+		height: 50vh;
+	}
+}
+
 .subheading {
     position: relative;
     text-align: center;
