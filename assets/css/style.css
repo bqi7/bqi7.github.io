@@ -69,8 +69,8 @@ li {
 
 #topbar-brand {
     margin-left: 2vw;
-    background-color: rgba(255,255,255, 0.2);
-    border-radius: 20%;
+/*    background-color: rgba(255,255,255, 0.2);*/
+    border-radius: 10%;
     border-style: solid;
     border-width: 1.2px;
     border-color: white;
@@ -144,7 +144,7 @@ li a {
 }
 
 .line-border-2 {
-    width: 200px;
+    width: 0px;
     height: 2px;
     background: white;
     margin: auto;
@@ -171,6 +171,7 @@ li a {
     font-size: 40px;
     font-family: 'Nunito', sans-serif;
     color: #333333;
+	text-align: center;
 }
 
 #about-image {
