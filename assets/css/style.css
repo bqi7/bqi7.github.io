@@ -93,13 +93,57 @@ li a {
     background-image: url("../img/image.jpg");
     background-size: cover;
     color: white;
-    z-index: -1;
+/*    z-index: -1;*/
     background-attachment: fixed;
+}
+
+.fa {
+  	padding: 8px;
+  	font-size: 40px;
+  	width: 17px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin-bottom: 20px;
+  	margin-left: 5px;
+  	margin-right: 5px;
+  	border-radius: 100%;
+/*	border: 1px solid white; */
+}
+
+.fa-facebook:hover {
+    background: #3B5998;
+  	color: white;
+}
+
+.fa-linkedin:hover {
+    background: #007bb5;
+  	color: white;
+}
+
+.fa-github:hover {
+    background: #313131;
+  	color: white;
+}
+
+.fa-facebook {
+  	background: white;
+  	color: #3B5998;
+
+}
+
+.fa-linkedin {
+  	background: white;
+  	color: #007bb5;
+}
+
+.fa-github {
+  	background: white;
+  	color: #313131;
 }
 
 .container {
     width: 100%;
-    padding-top: 40vh;
+    padding-top: 35vh;
     text-align: center;
     margin: auto;
     position: relative;
@@ -164,7 +208,7 @@ li a {
     color: #333333;
     text-align: left;
     margin: auto;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 
 #hi {
