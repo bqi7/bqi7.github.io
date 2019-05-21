@@ -337,7 +337,7 @@ i:hover {
 .box {
     height: 200px;
     width: auto;
-    border-radius: 5%;
+/*    border-radius: 5%;*/
     border-width: 1px;
     border-color: #707070;
     border-style: solid;
