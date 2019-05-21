@@ -7,9 +7,9 @@ $(document).ready(function() {
                 setTimeout('$("#occupations").fadeOut()', 1600);
                 // document.getElementById("occupations").innerHTML = words[i];
                 $("#occupations").text(words[i]);
-                $("#occupations").fadeIn(400);
+                $("#occupations").fadeIn();
                 runSequence(++i);
-            }, 2000); 
+            }, 1980); 
 
         } else if (words.length == i) { 
             runSequence(0);

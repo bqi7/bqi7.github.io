@@ -78,6 +78,16 @@ li {
 }
 
 /*
+.avatar {
+	margin-left: 2vw;
+  	vertical-align: middle;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+*/
+
+/*
 #brand {
 	margin-left: 2vw;
 	height: 40px;
@@ -112,7 +122,7 @@ li a {
   	width: 17px;
   	text-align: center;
   	text-decoration: none;
-  	margin-top: 205px;
+  	margin-top: 200px;
   	margin-left: 5px;
   	margin-right: 5px;
   	border-radius: 100%;
@@ -180,16 +190,37 @@ li a {
 }
 
 #occupations {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 20px;
 }
+
+/*
+i {
+	border: solid white;
+	height: 10px;
+	width: 10px;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	padding: 3px;
+}
+
+i:hover {
+	opacity: 0.6;
+}
+
+.down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	margin-top: 30px;
+}
+*/
 
 /* about page */
 #about {
     position: relative;
     width: 100vw;
     height: 110vh;
-    background-color: #F2F0F0;
+    background-color: #FCFBF9;
 }
 
 .subheading {
@@ -280,10 +311,12 @@ li a {
     margin: auto;
     margin-left: 50px;
     /* box-shadow: 5px 5px 5px grey; */
-    border-radius: 2%;
+    border-radius: 100%;
+/*
     border-width: 1px;
     border-color: #707070;
     border-style: solid;
+*/
 }
 
 /* projects page */
@@ -362,6 +395,9 @@ li a {
 /* iPhone 6, 7, 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
+	#main {
+		height: 70vh;
+	}
 	#about {
 		height: 50vh;
 	}
@@ -374,7 +410,7 @@ li a {
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
 	#main {
-		height: 150vh;
+/*		height: 150vh;*/
 	}
 	
 	#about {
