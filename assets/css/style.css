@@ -77,6 +77,15 @@ li {
     padding: 1px;
 }
 
+/*
+#brand {
+	margin-left: 2vw;
+	height: 40px;
+	width: 40px;
+	border-radius: 30%;
+}
+*/
+
 li a {
     display: block;
     color: white;
@@ -98,12 +107,12 @@ li a {
 }
 
 .fa {
-  	padding: 8px;
+  	padding: 10px;
   	font-size: 40px;
   	width: 17px;
   	text-align: center;
   	text-decoration: none;
-  	margin-bottom: 20px;
+  	margin-top: 205px;
   	margin-left: 5px;
   	margin-right: 5px;
   	border-radius: 100%;
@@ -113,32 +122,44 @@ li a {
 .fa-facebook:hover {
     background: #3B5998;
   	color: white;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
 }
 
 .fa-linkedin:hover {
     background: #007bb5;
   	color: white;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
 }
 
 .fa-github:hover {
     background: #313131;
   	color: white;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
 }
 
 .fa-facebook {
   	background: white;
   	color: #3B5998;
+	margin-left: 8px;
+	margin-right: 8px;
 
 }
 
 .fa-linkedin {
   	background: white;
   	color: #007bb5;
+	margin-left: 8px;
+	margin-right: 8px;
 }
 
 .fa-github {
   	background: white;
   	color: #313131;
+	margin-left: 8px;
+	margin-right: 8px;
 }
 
 .container {
@@ -159,7 +180,7 @@ li a {
 }
 
 #occupations {
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 20px;
 }
 
@@ -259,7 +280,7 @@ li a {
     margin: auto;
     margin-left: 50px;
     /* box-shadow: 5px 5px 5px grey; */
-    border-radius: 5%;
+    border-radius: 2%;
     border-width: 1px;
     border-color: #707070;
     border-style: solid;
@@ -314,6 +335,11 @@ li a {
 #scheme:hover {
     opacity: 0.6;
 }
+
+#guava:hover {
+    opacity: 0.6;
+}
+
 
 #big-container {
 	display: flex;
