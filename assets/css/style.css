@@ -322,32 +322,56 @@ i:hover {
 /* projects page */
 #projects {
     position: relative;
-    height: 150vh;
+    height: 200vh;
     width: 100vw;
     background-color: #E5E0E0;
+	text-align: center;
 }
 
 #project-summary {
-	text-align: center;
 	color: #333333;
-	margin-top: 40px;
-}
-
-#big-container {
-    position: relative;
-    text-align: center;
-    width: 100%;
-    margin: auto;
+	margin-top: 38px;
+	margin-bottom: 38px;
 }
 
 .box {
-    height: 200px;
+    height: 280px;
     width: auto;
-/*    border-radius: 5%;*/
     border-width: 1px;
     border-color: #333333;
     border-style: solid;
-/*    margin-top: 40px;*/
+}
+
+.project-container {
+	height: 550px;
+	flex-basis: 25%;
+	-ms-flex: auto;
+	width: 259px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.text {
+    color: #333333;
+    text-align: center;
+	margin-top: 10px;
+}
+
+.title {
+	margin-bottom: 10px;
+	color: #333333;
+	font-size: 22px;
+}
+
+.big-container {
+	max-width: 1335px;
+	margin: 0 auto;
+}
+
+.grid-row {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
 }
 
 #ant {
@@ -378,33 +402,6 @@ i:hover {
     opacity: 0.6;
 }
 
-
-#big-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-.project-container {
-/*    display: inline-block;*/
-    text-align: center;
-	margin-left: 10px; 
-	margin-right: 10px; 
-}
-
-
-.text {
-    color: #333333;
-    text-align: center;
-    width: 20vw;
-}
-
-.title {
-	margin-top: 40px;
-	margin-bottom: 10px;
-	color: #333333;
-}
-
 /* iPhone 6, 7, 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
@@ -417,6 +414,10 @@ i:hover {
 	
 	#projects {
 		height: 50vh;
+	}
+	
+	#big-container {
+		flex-direction: column;
 	}
 }
 
@@ -433,4 +434,25 @@ i:hover {
 	#projects {
 		height: 150vh;
 	}
+}
+
+@media(max-width: 1333px) {
+	.project-container {
+    flex-basis: 25%;
+  }
+}
+@media(max-width: 1073px) {
+	.project-container {
+    flex-basis: 33.33%;
+  }
+}
+@media(max-width: 815px) {
+  .project-container {
+    flex-basis: 50%;
+  }
+}
+@media(max-width: 555px) {
+  .project-container {
+    flex-basis: 100%;
+  }
 }
