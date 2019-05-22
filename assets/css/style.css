@@ -322,9 +322,15 @@ i:hover {
 /* projects page */
 #projects {
     position: relative;
-    height: 110vh;
+    height: 150vh;
     width: 100vw;
     background-color: #E5E0E0;
+}
+
+#project-summary {
+	text-align: center;
+	color: #333333;
+	margin-top: 40px;
 }
 
 #big-container {
@@ -339,10 +345,9 @@ i:hover {
     width: auto;
 /*    border-radius: 5%;*/
     border-width: 1px;
-    border-color: #707070;
+    border-color: #333333;
     border-style: solid;
-    /* margin-left: 40px; */
-    margin-top: 40px;
+/*    margin-top: 40px;*/
 }
 
 #ant {
@@ -383,6 +388,8 @@ i:hover {
 .project-container {
 /*    display: inline-block;*/
     text-align: center;
+	margin-left: 10px; 
+	margin-right: 10px; 
 }
 
 
@@ -390,6 +397,12 @@ i:hover {
     color: #333333;
     text-align: center;
     width: 20vw;
+}
+
+.title {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	color: #333333;
 }
 
 /* iPhone 6, 7, 8 ----------- */
