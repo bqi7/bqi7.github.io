@@ -4,19 +4,19 @@ $(document).ready(function() {
 //        $("#display").stop(true, true);      
         if (words.length > i) {
             setTimeout(function() {
-                setTimeout('$("#occupations").fadeOut()', 1600);
+                setTimeout('$("#occupations").fadeOut()', 2000);
                 // document.getElementById("occupations").innerHTML = words[i];
                 $("#occupations").text(words[i]);
                 $("#occupations").fadeIn();
                 runSequence(++i);
-            }, 1980); 
+            }, 2380); 
 
         } else if (words.length == i) { 
             runSequence(0);
         }
     }
     var words = ['Computer Science Mentor', 'Software Engineer', 'Artist', 'American Kiwi', 'UC Berkeley Student'];   
-    setTimeout('$("#occupations").fadeOut()', 1600);
+    setTimeout('$("#occupations").fadeOut()', 2000);
     runSequence(0);
 
     // change topbar after scrolling
