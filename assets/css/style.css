@@ -73,7 +73,7 @@ li {
 #topbar-brand {
     margin-left: 2vw;
 /*    background-color: rgba(255,255,255, 0.2);*/
-    border-radius: 10%;
+    border-radius: 20%;
     border-style: solid;
     border-width: 1.5px;
     border-color: white;
@@ -206,7 +206,7 @@ li a {
 #about-container {
     width: 100%;
     text-align: center;
-	margin-top: 50px;
+	margin-top: 80px;
 	display: flex;
 	justify-content: center;
 }
@@ -217,7 +217,7 @@ li a {
     color: #565656;
     text-align: left;
     margin: auto;
-    margin-right: 25px;
+    margin-right: 45px;
 	font-size: 17px;
 }
 
@@ -286,8 +286,8 @@ li a {
 
 #project-summary {
 	color: #565656;
-	margin-top: 38px;
-	margin-bottom: 38px;
+	margin-top: 45px;
+	margin-bottom: 45px;
 	font-size: 15px;
 }
 
