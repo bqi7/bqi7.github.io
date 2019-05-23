@@ -183,7 +183,7 @@ li a {
 #about {
     position: relative;
     width: 100vw;
-    height: 100vh;
+/*    height: 100vh;*/
     background-color: #FCFBF9;
 }
 
@@ -219,6 +219,8 @@ li a {
     margin: auto;
     margin-right: 45px;
 	font-size: 17px;
+	margin-bottom: 160px;
+	margin-top: 10px;
 }
 
 #hi {
@@ -232,6 +234,20 @@ li a {
 /*    display: inline-block;*/
     margin: auto;
 	margin-left: 30px;
+}
+
+#face {
+    height: 310px;
+    width: auto;
+    margin: auto;
+    margin-left: 50px;
+    box-shadow: 0px 0px 4px grey; 
+    border-radius: 100%;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+	margin-bottom: 160px;
+	margin-top: 10px;
 }
 
 .em-wave {
@@ -263,22 +279,10 @@ li a {
       }
 }
 
-#face {
-    height: 310px;
-    width: auto;
-    margin: auto;
-    margin-left: 50px;
-    box-shadow: 0px 0px 4px grey; 
-    border-radius: 100%;
-    border-width: 5px;
-    border-color: white;
-    border-style: solid;
-}
-
 /* projects page */
 #projects {
     position: relative;
-    height: 180vh;
+/*    height: 180vh;*/
     width: 100vw;
     background-color: #ECE9E9;
 	text-align: center;
@@ -364,7 +368,7 @@ li a {
 /*contact page*/
 #contact {
 	position: relative;
-    height: 43vh;
+    height: 47vh;
     width: 100vw;
     background-color: #252525;
 	text-align: center;
@@ -385,6 +389,7 @@ li a {
 /* iPhone 6, 7, 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
+/*
 	#main {
 		height: 70vh;
 	}
@@ -395,16 +400,14 @@ li a {
 	#projects {
 		height: 50vh;
 	}
-	
-	#big-container {
-		flex-direction: column;
-	}
+*/
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
+/*
 	#main {
-/*		height: 150vh;*/
+		height: 150vh;
 	}
 	
 	#about {
@@ -414,28 +417,39 @@ li a {
 	#projects {
 		height: 200vh;
 	}
+*/
 }
 
-@media(max-width: 555px) {
-  .project-container {
-    flex-basis: 100%;
-  }
-}
-
-@media(max-width: 815px) {
-  .project-container {
-    flex-basis: 50%;
-  }
-}
-
-@media(max-width: 1073px) {
-	.project-container {
-    flex-basis: 33.33%;
-  }
-}
-
-@media(max-width: 1333px) {
+/*
+@media screen and (max-width: 1333px) {
 	.project-container {
     flex-basis: 25%;
   }
 }
+*/
+
+@media screen and (max-width: 1160px) {
+	.project-container {
+    	flex-basis: 33.33%;
+	}
+	
+	#contact {
+		height: 45vh;
+	}
+}
+
+@media(max-width: 978px) {
+	.project-container {
+		flex-basis: 50%;
+	}
+}
+
+@media(max-width: 555px) {
+	.project-container {
+		flex-basis: 100%;
+	}
+}
+
+
+
+
