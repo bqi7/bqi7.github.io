@@ -4,10 +4,10 @@ $(document).ready(function() {
 //        $("#display").stop(true, true);      
         if (words.length > i) {
             setTimeout(function() {
-                setTimeout('$("#occupations").fadeOut()', 2000);
+                setTimeout('$("#occupations").stop(true,true).fadeOut()', 2000);
                 // document.getElementById("occupations").innerHTML = words[i];
                 $("#occupations").text(words[i]);
-                $("#occupations").fadeIn();
+                $("#occupations").stop(true,true).fadeIn();
                 runSequence(++i);
             }, 2380); 
 

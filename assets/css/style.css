@@ -322,7 +322,7 @@ i:hover {
 /* projects page */
 #projects {
     position: relative;
-    height: 200vh;
+    height: 170vh;
     width: 100vw;
     background-color: #E5E0E0;
 	text-align: center;
@@ -335,7 +335,7 @@ i:hover {
 }
 
 .box {
-    height: 280px;
+    height: 250px;
     width: auto;
     border-width: 1px;
     border-color: #333333;
@@ -343,7 +343,7 @@ i:hover {
 }
 
 .project-container {
-	height: 550px;
+/*	height: 150px;*/
 	flex-basis: 25%;
 	-ms-flex: auto;
 	width: 259px;
@@ -355,12 +355,13 @@ i:hover {
     color: #333333;
     text-align: center;
 	margin-top: 10px;
+	margin-bottom: 30px;
 }
 
 .title {
 	margin-bottom: 10px;
 	color: #333333;
-	font-size: 22px;
+	font-size: 20px;
 }
 
 .big-container {
@@ -436,23 +437,26 @@ i:hover {
 	}
 }
 
-@media(max-width: 1333px) {
-	.project-container {
-    flex-basis: 25%;
+@media(max-width: 555px) {
+  .project-container {
+    flex-basis: 100%;
   }
 }
-@media(max-width: 1073px) {
-	.project-container {
-    flex-basis: 33.33%;
-  }
-}
+
 @media(max-width: 815px) {
   .project-container {
     flex-basis: 50%;
   }
 }
-@media(max-width: 555px) {
-  .project-container {
-    flex-basis: 100%;
+
+@media(max-width: 1073px) {
+	.project-container {
+    flex-basis: 33.33%;
+  }
+}
+
+@media(max-width: 1333px) {
+	.project-container {
+    flex-basis: 25%;
   }
 }
