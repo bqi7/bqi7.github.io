@@ -197,9 +197,9 @@ li a {
 }
 
 .line-border {
-    width: 80px;
+    width: 70px;
     height: 2px;
-    background: grey;
+    background: #808080;
     margin: auto;
 }
 
@@ -280,7 +280,7 @@ li a {
     position: relative;
     height: 175vh;
     width: 100vw;
-    background-color: #E5E0E0;
+    background-color: #ECE9E9;
 	text-align: center;
 }
 
@@ -317,7 +317,7 @@ li a {
 }
 
 .title {
-	margin-bottom: 12px;
+	margin-top: 12px;
 	color: #333333;
 	font-size: 20px;
 }
