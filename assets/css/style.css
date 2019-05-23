@@ -1,6 +1,7 @@
 body {
     margin: 0px;
-    font-family: 'Open Sans', sans-serif;
+/*    font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
 }
 
 html {
@@ -12,6 +13,7 @@ html {
     position: fixed;
     z-index: 1;
     transition: background-color 150ms linear;
+	font-size: 17px;
 }
 
 #topbar.scrolled {
@@ -72,29 +74,11 @@ li {
 /*    background-color: rgba(255,255,255, 0.2);*/
     border-radius: 10%;
     border-style: solid;
-    border-width: 1.2px;
+    border-width: 1.5px;
     border-color: white;
     padding: 1px;
+	font-size: 17px;
 }
-
-/*
-.avatar {
-	margin-left: 2vw;
-  	vertical-align: middle;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-}
-*/
-
-/*
-#brand {
-	margin-left: 2vw;
-	height: 40px;
-	width: 40px;
-	border-radius: 30%;
-}
-*/
 
 li a {
     display: block;
@@ -112,7 +96,6 @@ li a {
     background-image: url("../img/image.jpg");
     background-size: cover;
     color: white;
-/*    z-index: -1;*/
     background-attachment: fixed;
 }
 
@@ -122,7 +105,7 @@ li a {
   	width: 17px;
   	text-align: center;
   	text-decoration: none;
-  	margin-top: 200px;
+  	margin-top: 215px;
   	margin-left: 5px;
   	margin-right: 5px;
   	border-radius: 100%;
@@ -181,12 +164,11 @@ li a {
 }
 
 #name {
-    font-size: 55px;
+    font-size: 60px;
     padding: 5px 0px 5px 0px;
-    width: 30vw;
+/*    width: 30vw;*/
     position: relative;
-    margin: auto;
-    /* border: 1px solid white; */
+/*    margin: auto;*/
 }
 
 #occupations {
@@ -194,32 +176,11 @@ li a {
     font-size: 20px;
 }
 
-/*
-i {
-	border: solid white;
-	height: 10px;
-	width: 10px;
-	border-width: 0 2px 2px 0;
-	display: inline-block;
-	padding: 3px;
-}
-
-i:hover {
-	opacity: 0.6;
-}
-
-.down {
-	transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
-	margin-top: 30px;
-}
-*/
-
 /* about page */
 #about {
     position: relative;
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
     background-color: #FCFBF9;
 }
 
@@ -249,7 +210,7 @@ i:hover {
 #about-container {
     width: 100%;
     text-align: center;
-    margin-top: 8vh;
+	margin-top: 50px;
 	display: flex;
 	justify-content: center;
 }
@@ -257,17 +218,18 @@ i:hover {
 #about-text {
 /*    display: inline-block;*/
     width: 38vw;
-    color: #333333;
+    color: #565656;
     text-align: left;
     margin: auto;
     margin-right: 25px;
+	font-size: 17px;
 }
 
 #hi {
     font-size: 40px;
-    font-family: 'Nunito', sans-serif;
-    color: #333333;
-	text-align: center;
+/*    font-family: 'Nunito', sans-serif;*/
+    color: #565656;
+/*	text-align: center;*/
 }
 
 #about-image {
@@ -306,39 +268,38 @@ i:hover {
 }
 
 #face {
-    height: 325px;
+    height: 310px;
     width: auto;
     margin: auto;
     margin-left: 50px;
-    /* box-shadow: 5px 5px 5px grey; */
+/*    box-shadow: 5px 5px 5px grey; */
     border-radius: 100%;
-/*
-    border-width: 1px;
+    border-width: 1.2px;
     border-color: #707070;
     border-style: solid;
-*/
 }
 
 /* projects page */
 #projects {
     position: relative;
-    height: 170vh;
+    height: 175vh;
     width: 100vw;
     background-color: #E5E0E0;
 	text-align: center;
 }
 
 #project-summary {
-	color: #333333;
+	color: #565656;
 	margin-top: 38px;
 	margin-bottom: 38px;
+	font-size: 17px;
 }
 
 .box {
     height: 250px;
     width: auto;
     border-width: 1px;
-    border-color: #333333;
+    border-color: #565656;
     border-style: solid;
 }
 
@@ -347,19 +308,20 @@ i:hover {
 	flex-basis: 25%;
 	-ms-flex: auto;
 	width: 259px;
-	padding: 10px;
+	padding: 20px;
 	box-sizing: border-box;
 }
 
 .text {
-    color: #333333;
+    color: #565656;
     text-align: center;
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-bottom: 30px;
+	font-size: 17px;
 }
 
 .title {
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	color: #333333;
 	font-size: 20px;
 }
@@ -402,6 +364,27 @@ i:hover {
 #guava:hover {
     opacity: 0.6;
 }
+
+/*contact page*/
+#contact {
+	position: relative;
+    height: 40vh;
+    width: 100vw;
+    background-color: #252525;
+	text-align: center;
+	color: white;
+}
+
+.con {
+	color: white;
+}
+
+.contact-text {
+	color: white;
+	margin-top: 45px;
+}
+
+
 
 /* iPhone 6, 7, 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
