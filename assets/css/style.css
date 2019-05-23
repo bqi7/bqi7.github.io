@@ -10,14 +10,15 @@ html {
 
 /* topbar */
 #topbar {
-    position: fixed;
+    position: relative;
     z-index: 1;
     transition: background-color 150ms linear;
 	font-size: 17px;
 }
 
 #topbar.scrolled {
-    background-color: #676666;
+	position: fixed;
+    background-color: #5A5959;
     transition: background-color 150ms linear;
 }
 
@@ -94,10 +95,12 @@ li a {
     width: 100vw;
     height: 100vh;
     background-image: url("../img/image.jpg");
+	backdrop-filter: brightness(10%);
     background-size: cover;
     color: white;
     background-attachment: fixed;
 }
+
 
 .fa {
   	padding: 10px;
@@ -200,13 +203,6 @@ li a {
     margin: auto;
 }
 
-.line-border-2 {
-    width: 0px;
-    height: 2px;
-    background: white;
-    margin: auto;
-}
-
 #about-container {
     width: 100%;
     text-align: center;
@@ -272,10 +268,10 @@ li a {
     width: auto;
     margin: auto;
     margin-left: 50px;
-/*    box-shadow: 5px 5px 5px grey; */
+    box-shadow: 0px 0px 4px grey; 
     border-radius: 100%;
-    border-width: 1.2px;
-    border-color: #707070;
+    border-width: 4px;
+    border-color: white;
     border-style: solid;
 }
 
@@ -292,7 +288,7 @@ li a {
 	color: #565656;
 	margin-top: 38px;
 	margin-bottom: 38px;
-	font-size: 17px;
+	font-size: 15px;
 }
 
 .box {
@@ -315,13 +311,13 @@ li a {
 .text {
     color: #565656;
     text-align: center;
-	margin-top: 15px;
+	margin-top: 12px;
 	margin-bottom: 30px;
-	font-size: 17px;
+	font-size: 15px;
 }
 
 .title {
-	margin-bottom: 15px;
+	margin-bottom: 12px;
 	color: #333333;
 	font-size: 20px;
 }
@@ -368,7 +364,7 @@ li a {
 /*contact page*/
 #contact {
 	position: relative;
-    height: 40vh;
+    height: 43vh;
     width: 100vw;
     background-color: #252525;
 	text-align: center;
