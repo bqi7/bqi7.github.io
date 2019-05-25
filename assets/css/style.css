@@ -436,7 +436,7 @@ li a {
 	}
 	
 	.container {
-		padding-top: 32vh;
+		padding-top: 28vh;
 	}
 	
 	.subheading {
@@ -491,12 +491,6 @@ li a {
 		width: 65vw;
 		margin: auto;
 		margin-top: 30px;
-	}
-}
-
-@media(max-width: 770px) {
-	.container {
-		padding-top: 28vh;
 	}
 }
 
@@ -579,7 +573,7 @@ li a {
 	}
 }
 
-@media screen and (orientation:landscape) and (max-height: 500px) { 
+@media screen and (orientation:landscape) and (max-height: 620px) { 
 	#main {
 		height: 100vh;
 	}
