@@ -164,7 +164,7 @@ li a {
 }
 
 #name {
-	font-size: 50px;
+	font-size: 70px;
     padding: 5px 0px 5px 0px;
     position: relative;
     margin: auto;
@@ -172,7 +172,7 @@ li a {
 
 #occupations {
     margin-top: 15px;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 /* about page */
@@ -416,7 +416,7 @@ li a {
 
 @media(max-width: 829px) {
 	#main {
-		height: 70vh;
+		height: 90vh;
 	}
 	
 	#topbar {
@@ -428,7 +428,7 @@ li a {
 	}
 	
 	#occupations {
-		font-size: 18px;
+		font-size: 17px;
 	}
 	
 	.container {
@@ -512,7 +512,7 @@ li a {
 	}
 	
 	#name {
-/*		font-size: 50px;*/
+		font-size: 50px;
 	}
 
 	
