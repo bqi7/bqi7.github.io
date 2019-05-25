@@ -416,10 +416,14 @@ li a {
 
 @media(max-width: 829px) {
 	#main {
-		height: 90vh;
+		height: 85vh;
 	}
 	
 	#topbar {
+		font-size: 15px;
+	}
+	
+	#topbar-brand {
 		font-size: 15px;
 	}
 	
@@ -511,6 +515,10 @@ li a {
 		font-size: 14px;
 	}
 	
+	#topbar-brand {
+		font-size: 14px;
+	}
+	
 	#name {
 		font-size: 50px;
 	}
@@ -560,6 +568,10 @@ li a {
 	#topbar {
 		font-size: 10px;
 	}
+
+	#topbar-brand {
+		font-size: 10px;
+	}
 }
 
 @media screen and (orientation:landscape) and (max-height: 500px) { 
@@ -567,11 +579,13 @@ li a {
 		height: 100vh;
 	}
 	
-/*
+	#name {
+/*		font-size: 30px;*/
+	}
+	
 	#occupations {
 		font-size: 15px;
 	}
-*/
 }
 	
 
