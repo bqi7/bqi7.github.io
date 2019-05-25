@@ -94,7 +94,6 @@ li a {
     width: 100vw;
     height: 100vh;
     background-image: url("../img/image.jpg");
-/*	backdrop-filter: brightness(10%);*/
     background-size: cover;
     color: white;
     background-attachment: fixed;
@@ -279,7 +278,7 @@ li a {
 #project-summary {
 	color: #565656;
 	margin-top: 50px;
-	margin-bottom: 45px;
+	margin-bottom: 20px;
 	font-size: 15px;
 }
 
@@ -289,6 +288,7 @@ li a {
     border-width: 1px;
     border-color: #565656;
     border-style: solid;
+	margin-top: 30px;
 }
 
 .project-container {
@@ -303,13 +303,14 @@ li a {
 .text {
     color: #565656;
     text-align: center;
-	margin-top: 12px;
-	margin-bottom: 30px;
 	font-size: 15px;
+	width: 250px;
+	margin: auto;
 }
 
 .title {
 	margin-top: 12px;
+	margin-bottom: 12px;
 	color: #333333;
 	font-size: 20px;
 }
@@ -478,12 +479,20 @@ li a {
 	#about-text {
 		font-size: 15px;
 	}
+	
+	#project-summary {
+		width: 65vw;
+		margin: auto;
+		margin-top: 30px;
+	}
 }
 
 @media(max-width: 680px) {
 	#about-text {
 		width: 46vw;
 	}
+	
+
 }
 
 @media(max-width: 555px) {
