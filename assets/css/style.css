@@ -428,7 +428,7 @@ li a {
 	}
 	
 	.container {
-		padding-top: 32vh;
+		padding-top: 30vh;
 	}
 	
 	.subheading {
@@ -436,7 +436,7 @@ li a {
 	}
 	
 	.fa {
-		margin-top: 50px;
+		margin-top: 60px;
 	}
 	
 	.container-2 {
@@ -486,12 +486,6 @@ li a {
 	}
 }
 
-@media(max-width: 770px) {
-	.container {
-		padding-top: 28vh;
-	}
-}
-
 @media(max-width: 680px) {
 	#about-text {
 		width: 46vw;
@@ -531,7 +525,7 @@ li a {
 	}
 	
 	.container {
-		padding-top: 18vh;
+		padding-top: 16vh;
 	}
 	
 	.fa {
