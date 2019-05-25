@@ -15,7 +15,7 @@ $(document).ready(function() {
             runSequence(0);
         }
     }
-    var words = ['Computer Science Mentor', 'Software Engineer', 'Artist', 'American Kiwi', 'UC Berkeley Student'];   
+    var words = ['Computer Science Mentor', 'Software Engineer', 'Computer Science / Data Science Major', 'Artist', 'American Kiwi', 'UC Berkeley Student'];   
     setTimeout('$("#occupations").fadeOut()', 2000);
     runSequence(0);
 

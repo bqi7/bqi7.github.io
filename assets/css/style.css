@@ -492,8 +492,6 @@ li a {
 	#about-text {
 		width: 46vw;
 	}
-	
-
 }
 
 @media(max-width: 555px) {
@@ -546,6 +544,18 @@ li a {
 	
 	#hi {
 		font-size: 20px;
+	}
+}
+
+@media(max-width: 400px) {
+	#topbar {
+		font-size: 10px;
+	}
+}
+
+@media screen and (orientation:landscape) and (max-height: 500px) { 
+	#main {
+		height: 100vh;
 	}
 }
 	
