@@ -286,9 +286,10 @@ li a {
     height: 250px;
     width: auto;
     border-width: 1px;
-    border-color: #565656;
+    border-color: #333333;
     border-style: solid;
 	margin-top: 30px;
+	border-radius: 13%
 }
 
 .project-container {
