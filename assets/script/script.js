@@ -6,8 +6,8 @@ $(document).ready(function() {
             setTimeout(function() {
                 setTimeout('$("#occupations").stop(true,true).fadeOut()', 2000);
                 // document.getElementById("occupations").innerHTML = words[i];
-                $("#occupations").text(words[i]);
-                $("#occupations").stop(true,true).fadeIn();
+                $("#occupations").text(words[i]).stop(true,true).fadeIn(500);
+//                $("#occupations").stop(true,true).fadeIn();
                 runSequence(++i);
             }, 2380); 
 
@@ -15,7 +15,7 @@ $(document).ready(function() {
             runSequence(0);
         }
     }
-    var words = ['Computer Science Mentor', 'Software Engineer', 'Computer Science / Data Science Major', 'Artist', 'American Kiwi', 'UC Berkeley Student'];   
+    var words = ['Computer Science Mentor', 'Software Engineer', 'Computer Science/Data Science Major', 'Artist', 'American Kiwi', 'UC Berkeley Student'];   
     setTimeout('$("#occupations").fadeOut()', 2000);
     runSequence(0);
 

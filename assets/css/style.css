@@ -331,6 +331,7 @@ li a {
     filter: grayscale(40%);
 }
 
+/*
 #git:hover {
     opacity: 0.6;
 }
@@ -354,6 +355,7 @@ li a {
 #guava:hover {
     opacity: 0.6;
 }
+*/
 
 /*contact page*/
 #contact {
