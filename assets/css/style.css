@@ -206,7 +206,7 @@ li a {
 #about-container {
     width: 100%;
     text-align: center;
-	margin-top: 80px;
+	margin-top: 90px;
 	display: flex;
 	justify-content: center;
 }
@@ -285,7 +285,7 @@ li a {
 
 #project-summary {
 	color: #565656;
-	margin-top: 45px;
+	margin-top: 50px;
 	margin-bottom: 45px;
 	font-size: 15px;
 }
@@ -303,7 +303,7 @@ li a {
 	flex-basis: 25%;
 	-ms-flex: auto;
 	width: 259px;
-	padding: 20px;
+	padding: 10px;
 	box-sizing: border-box;
 }
 
@@ -363,7 +363,7 @@ li a {
 /*contact page*/
 #contact {
 	position: relative;
-    height: 47vh;
+/*    height: 47vh;*/
     width: 100vw;
     background-color: #252525;
 	text-align: center;
@@ -377,15 +377,20 @@ li a {
 .contact-text {
 	color: white;
 	margin-top: 45px;
+	padding-bottom: 110px;
+	margin-right: 30px;
+	margin-left: 30px;
 }
 
-@media screen and (max-width: 1160px) {
+@media(min-width: 1300px) {
+	#about-text {
+		width: 500px;
+	}
+}
+
+@media(max-width: 1160px) {
 	.project-container {
     	flex-basis: 33.33%;
-	}
-	
-	#contact {
-		height: 45vh;
 	}
 }
 
@@ -393,10 +398,9 @@ li a {
 	.project-container {
 		flex-basis: 50%;
 	}
-	#about-text {#about-text {
+	#about-text {
 		margin-left: 0px;
 		margin-right: 0px;
-/*		margin-bottom: 80px;*/
 		width: 45vw;
 	}
 	
@@ -409,7 +413,7 @@ li a {
 @media(max-width: 885px) {
 	#face {
 		margin-left: 0px;
-		margin-right: 60px;
+		margin-right: 80px;
 	}
 }
 
@@ -455,7 +459,7 @@ li a {
 	}
 	
 	#face {
-		height: 210px;
+		height: 220px;
 		margin-top: 40px;
 		margin-left: 0px;
 		margin-right: 0px;
