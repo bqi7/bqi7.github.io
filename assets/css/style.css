@@ -72,7 +72,6 @@ li {
 
 #topbar-brand {
     margin-left: 2vw;
-/*    background-color: rgba(255,255,255, 0.2);*/
     border-radius: 20%;
     border-style: solid;
     border-width: 1.5px;
@@ -95,7 +94,7 @@ li a {
     width: 100vw;
     height: 100vh;
     background-image: url("../img/image.jpg");
-	backdrop-filter: brightness(10%);
+/*	backdrop-filter: brightness(10%);*/
     background-size: cover;
     color: white;
     background-attachment: fixed;
@@ -108,11 +107,10 @@ li a {
   	width: 17px;
   	text-align: center;
   	text-decoration: none;
-  	margin-top: 215px;
+	margin-top: 20vh;
   	margin-left: 5px;
   	margin-right: 5px;
   	border-radius: 100%;
-/*	border: 1px solid white; */
 }
 
 .fa-facebook:hover {
@@ -160,7 +158,7 @@ li a {
 
 .container {
     width: 100%;
-    padding-top: 35vh;
+    padding-top: 38vh;
     text-align: center;
     margin: auto;
     position: relative;
@@ -169,7 +167,6 @@ li a {
 #name {
     font-size: 70px;
     padding: 5px 0px 5px 0px;
-/*    width: 30vw;*/
     position: relative;
     margin: auto;
 }
@@ -212,13 +209,10 @@ li a {
 }
 
 #about-text {
-/*    display: inline-block;*/
     width: 40vw;
     color: #565656;
     text-align: left;
     margin: auto;
-/*    margin-right: 45px;*/
-/*	margin-top: 10px;	*/
 	font-size: 17px;
 	margin-bottom: 160px;
 }
@@ -277,7 +271,6 @@ li a {
 /* projects page */
 #projects {
     position: relative;
-/*    height: 180vh;*/
     width: 100vw;
     background-color: #ECE9E9;
 	text-align: center;
@@ -419,18 +412,31 @@ li a {
 
 @media(max-width: 829px) {
 	#main {
-		height: 80vh;
+		height: 70vh;
+	}
+	
+	#topbar {
+		font-size: 15px;
+	}
+	
+	#name {
+		font-size: 60px;
+	}
+	
+	#occupations {
+		font-size: 18px;
 	}
 	
 	.container {
-		padding-top: 30vh;
+		padding-top: 24vh;
+	}
+	
+	.subheading {
+		font-size: 15px;
 	}
 	
 	.fa {
-		margin-top: 100px;
-		margin-left: 5px;
-		margin-right: 5px;
-		border-radius: 100%;
+		margin-top: 60px;
 	}
 	
 	.container-2 {
@@ -441,11 +447,10 @@ li a {
 		margin-left: 0px;
 		margin-right: 0px;
 		margin-bottom: 80px;
-		width: 55vw;
+		width: 50vw;
 	}
 	
 	#about-container {
-/*		margin-top: 30px;*/
 		margin-left: 0px;
 		margin-right: 0px;
 		margin-top: 0px;
@@ -465,6 +470,14 @@ li a {
 		margin-right: 0px;
 		margin-bottom: 30px;
 	}
+	
+	#hi {
+		font-size: 35px;
+	}
+	
+	#about-text {
+		font-size: 15px;
+	}
 }
 
 @media(max-width: 680px) {
@@ -475,30 +488,44 @@ li a {
 
 @media(max-width: 555px) {
 	#main {
-		height: 50vh;
+		height: 55vh;
 	}
 	
 	#topbar {
-		font-size: 15px;
+		font-size: 14px;
+	}
+	
+	#name {
+		font-size: 50px;
+	}
+	
+	#occupations {
+		font-size: 14px;
+	}
+	
+	.subheading {
+		font-size: 14px;
 	}
 	
 	.container {
-		padding-top: 14vh;
+		padding-top: 16vh;
 	}
 	
 	.fa {
-		margin-top: 50px;
+		margin-top: 45px;
 	}
 	
 	.project-container {
 		flex-basis: 100%;
 	}
 	
+	#hi {
+		font-size: 30px;
+	}
+	
 	#about-text {
 		width: 35vw;
-	}
-	#hi {
-			font-size: 35px;
+		font-size: 14px;
 	}
 }
 
@@ -508,7 +535,7 @@ li a {
 	}
 	
 	#hi {
-		font-size: 30px;
+		font-size: 20px;
 	}
 }
 	
