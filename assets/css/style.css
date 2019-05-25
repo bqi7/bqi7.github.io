@@ -563,6 +563,14 @@ li a {
 	#main {
 		height: 100vh;
 	}
+	
+	#name {
+		font-size: 50px;
+	}
+	
+	#occupations {
+		font-size: 15px;
+	}
 }
 	
 
