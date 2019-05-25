@@ -164,7 +164,7 @@ li a {
 }
 
 #name {
-    font-size: 70px;
+	font-size: 50px;
     padding: 5px 0px 5px 0px;
     position: relative;
     margin: auto;
@@ -172,7 +172,7 @@ li a {
 
 #occupations {
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 /* about page */
@@ -427,14 +427,6 @@ li a {
 		font-size: 15px;
 	}
 	
-	#name {
-		font-size: 60px;
-	}
-	
-	#occupations {
-		font-size: 18px;
-	}
-	
 	.container {
 		padding-top: 28vh;
 	}
@@ -520,8 +512,9 @@ li a {
 	}
 	
 	#name {
-		font-size: 50px;
+/*		font-size: 50px;*/
 	}
+
 	
 	#occupations {
 		font-size: 14px;
@@ -578,13 +571,11 @@ li a {
 		height: 100vh;
 	}
 	
-	#name {
-		font-size: 50px;
-	}
-	
+/*
 	#occupations {
 		font-size: 15px;
 	}
+*/
 }
 	
 
