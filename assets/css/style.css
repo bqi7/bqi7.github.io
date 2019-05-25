@@ -427,6 +427,14 @@ li a {
 		font-size: 15px;
 	}
 	
+	#name {
+		font-size: 60px;
+	}
+	
+	#occupations {
+		font-size: 18px;
+	}
+	
 	.container {
 		padding-top: 30vh;
 	}
@@ -507,10 +515,6 @@ li a {
 		font-size: 14px;
 	}
 	
-	#topbar-brand {
-		font-size: 14px;
-	}
-	
 	#name {
 /*		font-size: 50px;*/
 	}
@@ -558,10 +562,6 @@ li a {
 
 @media(max-width: 400px) {
 	#topbar {
-		font-size: 10px;
-	}
-	
-	#topbar-brand {
 		font-size: 10px;
 	}
 }
