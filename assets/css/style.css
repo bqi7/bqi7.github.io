@@ -78,7 +78,7 @@ li {
     border-width: 1.5px;
     border-color: white;
     padding: 1px;
-	font-size: 17px;
+	font-size: 17px; 
 }
 
 li a {
@@ -171,7 +171,7 @@ li a {
     padding: 5px 0px 5px 0px;
 /*    width: 30vw;*/
     position: relative;
-/*    margin: auto;*/
+    margin: auto;
 }
 
 #occupations {
@@ -213,41 +213,36 @@ li a {
 
 #about-text {
 /*    display: inline-block;*/
-    width: 38vw;
+    width: 40vw;
     color: #565656;
     text-align: left;
     margin: auto;
-    margin-right: 45px;
+/*    margin-right: 45px;*/
+/*	margin-top: 10px;	*/
 	font-size: 17px;
 	margin-bottom: 160px;
-	margin-top: 10px;
 }
 
 #hi {
     font-size: 40px;
-/*    font-family: 'Nunito', sans-serif;*/
     color: #565656;
-/*	text-align: center;*/
 }
 
 #about-image {
-/*    display: inline-block;*/
     margin: auto;
-	margin-left: 30px;
 }
 
 #face {
+	margin-bottom: 160px;
+	margin-top: 10px;
+	margin-right: 130px;
     height: 310px;
     width: auto;
-    margin: auto;
-    margin-left: 50px;
     box-shadow: 0px 0px 4px grey; 
     border-radius: 100%;
     border-width: 5px;
     border-color: white;
     border-style: solid;
-	margin-bottom: 160px;
-	margin-top: 10px;
 }
 
 .em-wave {
@@ -384,50 +379,6 @@ li a {
 	margin-top: 45px;
 }
 
-
-
-/* iPhone 6, 7, 8 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-/*
-	#main {
-		height: 70vh;
-	}
-	#about {
-		height: 50vh;
-	}
-	
-	#projects {
-		height: 50vh;
-	}
-*/
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-/*
-	#main {
-		height: 150vh;
-	}
-	
-	#about {
-		height: 150vh;
-	}
-	
-	#projects {
-		height: 200vh;
-	}
-*/
-}
-
-/*
-@media screen and (max-width: 1333px) {
-	.project-container {
-    flex-basis: 25%;
-  }
-}
-*/
-
 @media screen and (max-width: 1160px) {
 	.project-container {
     	flex-basis: 33.33%;
@@ -442,13 +393,121 @@ li a {
 	.project-container {
 		flex-basis: 50%;
 	}
+	#about-text {#about-text {
+		margin-left: 0px;
+		margin-right: 0px;
+/*		margin-bottom: 80px;*/
+		width: 45vw;
+	}
+	
+	#face {
+		margin-left: 0px;
+		margin-right: 90px;
+	}
+}
+
+@media(max-width: 885px) {
+	#face {
+		margin-left: 0px;
+		margin-right: 60px;
+	}
+}
+
+@media(max-width: 829px) {
+	#main {
+		height: 80vh;
+	}
+	
+	.container {
+		padding-top: 30vh;
+	}
+	
+	.fa {
+		margin-top: 100px;
+		margin-left: 5px;
+		margin-right: 5px;
+		border-radius: 100%;
+	}
+	
+	.container-2 {
+		flex-basis: 100%;
+	}
+	
+	#about-text {
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 80px;
+		width: 55vw;
+	}
+	
+	#about-container {
+/*		margin-top: 30px;*/
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+	}
+	
+	#about-image {
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+	#face {
+		height: 210px;
+		margin-top: 40px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 30px;
+	}
+}
+
+@media(max-width: 680px) {
+	#about-text {
+		width: 46vw;
+	}
 }
 
 @media(max-width: 555px) {
+	#main {
+		height: 50vh;
+	}
+	
+	#topbar {
+		font-size: 15px;
+	}
+	
+	.container {
+		padding-top: 14vh;
+	}
+	
+	.fa {
+		margin-top: 50px;
+	}
+	
 	.project-container {
 		flex-basis: 100%;
 	}
+	
+	#about-text {
+		width: 35vw;
+	}
+	#hi {
+			font-size: 35px;
+	}
 }
+
+@media(max-width: 450px) {
+	#about-text {
+		width: 20vw;
+	}
+	
+	#hi {
+		font-size: 30px;
+	}
+}
+	
 
 
 
