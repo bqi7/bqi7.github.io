@@ -498,6 +498,8 @@ li a {
 	#about-text {
 		width: 46vw;
 	}
+	
+	
 }
 
 @media (max-width: 570px) and (max-height: 320px) {
@@ -533,7 +535,7 @@ li a {
 	}
 	
 	.container {
-		padding-top: 16vh;
+		padding-top: 17vh;
 	}
 	
 	.fa {
