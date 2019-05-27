@@ -23,7 +23,7 @@ $(document).ready(function() {
     $(function () {
         $(document).scroll(function() {
           var bar = $("#topbar");
-          bar.toggleClass('scrolled', ($(this).scrollTop() > 0.8*screen.height));
+          bar.toggleClass('scrolled', ($(this).scrollTop() > 0.78*screen.height));
         });
     });
 });
