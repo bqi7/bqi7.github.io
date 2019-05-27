@@ -18,7 +18,7 @@ html {
 
 #topbar.scrolled {
 	position: fixed;
-    background-color: #5A5959;
+    background-color: #4D4C4C;
     transition: background-color 150ms linear;
 }
 
@@ -93,7 +93,7 @@ li a {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-image: url("../img/image.jpg");
+	background-image: url("../img/black.jpg");
     background-size: cover;
     color: white;
     background-attachment: fixed;
@@ -106,7 +106,7 @@ li a {
   	width: 17px;
   	text-align: center;
   	text-decoration: none;
-	margin-top: 20vh;
+	margin-top: 16vh;
   	margin-left: 5px;
   	margin-right: 5px;
   	border-radius: 100%;
@@ -157,14 +157,14 @@ li a {
 
 .container {
     width: 100%;
-    padding-top: 38vh;
+    padding-top: 35vh;
     text-align: center;
     margin: auto;
     position: relative;
 }
 
 #name {
-	font-size: 70px;
+	font-size: 75px;
     padding: 5px 0px 5px 0px;
     position: relative;
     margin: auto;
@@ -374,6 +374,9 @@ li a {
     background-color: #252525;
 	text-align: center;
 	color: white;
+	background-size: cover;
+    color: white;
+    background-attachment: fixed;
 }
 
 .con {
@@ -389,6 +392,18 @@ li a {
 }
 
 @media(min-width: 1300px) {
+	#name {
+		font-size: 90px;
+	}
+	
+	#topbar {
+		font-size: 25px;
+	}
+	
+	#topbar-brand {
+		font-size: 25px;
+	}
+	
 	#about-text {
 		width: 500px;
 	}
@@ -424,36 +439,16 @@ li a {
 }
 
 @media(max-width: 829px) {
-	#main {
-		height: 85vh;
-	}
-	
-	#topbar {
-		font-size: 15px;
-	}
-	
-	#topbar-brand {
-		font-size: 15px;
-	}
-	
 	#name {
-		font-size: 60px;
+		font-size: 65px;
 	}
 	
 	#occupations {
 		font-size: 17px;
 	}
 	
-	.container {
-		padding-top: 30vh;
-	}
-	
 	.subheading {
 		font-size: 15px;
-	}
-	
-	.fa {
-		margin-top: 60px;
 	}
 	
 	.container-2 {
@@ -507,8 +502,6 @@ li a {
 	#about-text {
 		width: 46vw;
 	}
-	
-	
 }
 
 @media (max-width: 570px) and (max-height: 320px) {
@@ -518,37 +511,20 @@ li a {
 }
 
 @media(max-width: 555px) {
-	#main {
-		height: 55vh;
-	}
-	
 	#topbar {
-		font-size: 14px;
+		font-size: 13px;
 	}
 	
 	#topbar-brand {
 		font-size: 14px;
 	}
 	
-	#name {
-		font-size: 50px;
-	}
-
-	
 	#occupations {
-		font-size: 14px;
+		font-size: 17px;
 	}
 	
 	.subheading {
 		font-size: 14px;
-	}
-	
-	.container {
-		padding-top: 17vh;
-	}
-	
-	.fa {
-		margin-top: 45px;
 	}
 	
 	.project-container {
@@ -565,6 +541,24 @@ li a {
 	}
 }
 
+@media screen and (orientation:landscape) and (max-height: 500px) { 	
+	#name {
+		font-size: 43px;
+	}
+	
+	#occupations {
+		font-size: 14px;
+	}
+	
+	#topbar {
+		font-size: 14px;
+	}
+	
+	#topbar-brand {
+		font-size: 14px;
+	}
+}
+
 @media(max-width: 450px) {
 	#about-text {
 		width: 20vw;
@@ -575,29 +569,35 @@ li a {
 	}
 }
 
-@media(max-width: 400px) {
+@media(max-width: 390px) {
 	#topbar {
-		font-size: 10px;
+		font-size: 13px;
 	}
 
 	#topbar-brand {
-		font-size: 10px;
-	}
-}
-
-@media screen and (orientation:landscape) and (max-height: 500px) { 
-	#main {
-		height: 100vh;
+		font-size: 13px;
 	}
 	
 	#name {
-/*		font-size: 30px;*/
+		font-size: 50px;
 	}
 	
 	#occupations {
-		font-size: 15px;
+		font-size: 13px;
+	}
+	
+}
+
+@media(max-width: 330px) {
+	#topbar {
+		font-size: 11px;
+	}
+
+	#topbar-brand {
+		font-size: 11px;
 	}
 }
+
 	
 
 
