@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	AOS.init();
     // fade in/out effect for occupation texts
     function runSequence(i) {  
 //        $("#display").stop(true, true);      
@@ -26,4 +27,6 @@ $(document).ready(function() {
           bar.toggleClass('scrolled', ($(this).scrollTop() > 0.78*screen.height));
         });
     });
+	
+	
 });

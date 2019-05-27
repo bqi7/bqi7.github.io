@@ -16,6 +16,10 @@
 		<title>Brian Qi</title>
 		<!-- Add icon library -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
     </head>
     <body>
@@ -61,15 +65,18 @@
             
         </section>
         <!-- about page -->
+		<script>
+			AOS.init();
+		</script>
         <section id="about">
 			<div class="subheading"><b>ABOUT</b></div>
             <div class="line-border"></div>
             <div id="about-container">
 				<div class="grid-row">
-					<div id="about-image" class="container-2">
+					<div id="about-image" class="container-2" data-aos="zoom-in" data-aos-duration="1200">
 						<img src="assets/img/face2.jpg" alt="Face" id="face">
 					</div>
-					<div id="about-text" class="container-2">
+					<div id="about-text" class="container-2" data-aos="zoom-in" data-aos-duration="1200">
 						<div id="hi"><b>Hi There!</b> 
 	<!--						<em class="em em-wave"></em>-->
 						</div>                  
@@ -101,8 +108,10 @@
         <section id="projects">
             <div class="subheading"><b>PROJECTS</b></div>
             <div class="line-border"></div>
-			<div id="project-summary"><b>Here are some interesting software development projects I have recently worked on</b> <br> <i>(code available on my github or upon request)</i></div>
-			<div class="big-container">
+			<div id="project-summary" data-aos="zoom-in" data-aos-duration="1200">
+				<b>Here are some interesting software development projects I have recently worked on</b> <br> <i>(code available on my github or upon request)</i>
+			</div>
+			<div class="big-container" data-aos="zoom-in" data-aos-duration="1200">
 				<div class="grid-row">
 					<div class="project-container">						
                         <img src="assets/img/git.png" class="box" id="git"> 
@@ -170,7 +179,7 @@
 		<section id="contact">
 			<div class="con subheading"><b>CONTACT</b></div>
 			<div class="line-border"></div>
-			<div class="contact-text">
+			<div class="contact-text" data-aos="zoom-in" data-aos-duration="1200">
 				<b>Connect with me!</b>
 				<br><br>
 				Feel free to reach out via LinkedIn or shoot me an email at bqi7@berkeley.edu.
