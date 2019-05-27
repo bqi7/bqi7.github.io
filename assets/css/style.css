@@ -267,10 +267,19 @@ li a {
       }
 }
 
+#skills {
+	text-align: center;
+	font-size: 25px;
+    color: #565656;
+	padding-bottom: 30px;
+}
+
 /* projects page */
 #projects {
     position: relative;
-    width: 100vw;
+    width: 92vw;
+	padding-right: 4vw;
+	padding-left: 4vw;
     background-color: #ECE9E9;
 	text-align: center;
 }
