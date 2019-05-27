@@ -18,7 +18,7 @@ html {
 
 #topbar.scrolled {
 	position: fixed;
-    background-color: #4D4C4C;
+    background-color: #424141;
     transition: background-color 150ms linear;
 }
 
@@ -338,6 +338,10 @@ li a {
 
 #ant {
     filter: grayscale(40%);
+}
+
+#spam {
+    filter: grayscale(5%);
 }
 
 /*
