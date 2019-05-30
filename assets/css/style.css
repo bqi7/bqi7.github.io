@@ -10,7 +10,7 @@ html {
 
 /* topbar */
 #topbar {
-    position: relative;
+    position: fixed;
     z-index: 1;
     transition: background-color 150ms linear;
 	font-size: 17px;
