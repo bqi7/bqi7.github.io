@@ -233,7 +233,7 @@ li a {
     width: auto;
     box-shadow: 0px 0px 4px grey; 
     border-radius: 100%;
-    border-width: 5px;
+    border-width: 7px;
     border-color: white;
     border-style: solid;
 }
@@ -295,10 +295,14 @@ li a {
     height: 250px;
     width: auto;
     border-width: 1px;
-    border-color: #333333;
-    border-style: solid;
+	border-color: #565656;
 	margin-top: 30px;
-	border-radius: 12%
+/*	border-radius: 10%;*/
+/*	box-shadow: 0px 0px 4px grey; */
+/*    border-width: 5px;*/
+/*    border-color: white;*/
+    border-style: solid;
+		
 }
 
 .project-container {
