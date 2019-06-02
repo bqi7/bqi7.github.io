@@ -274,6 +274,26 @@ li a {
 	padding-bottom: 30px;
 }
 
+
+/* skills page */
+#skills {
+	position: relative;
+	background-image: url("../img/black.jpg");
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+.subheading.sk {
+	color: white;
+}
+
+.w3-border-0{border:0!important}.w3-border{border:1px solid #ccc!important}
+.w3-border-top{border-top:1px solid #ccc!important}.w3-border-bottom{border-bottom:1px solid #ccc!important}
+.w3-border-left{border-left:1px solid #ccc!important}.w3-border-right{border-right:1px solid #ccc!important}
+.w3-grey,.w3-hover-grey:hover,.w3-gray,.w3-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
+
+
 /* projects page */
 #projects {
     position: relative;
