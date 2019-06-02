@@ -620,13 +620,13 @@ li a {
 	}
 }
 
-@media(max-width: 390px) {
+@media(max-width: 420px) {
 	#topbar {
-		font-size: 13px;
+		font-size: 11px;
 	}
 
 	#topbar-brand {
-		font-size: 13px;
+		font-size: 11px;
 	}
 	
 	#name {
@@ -639,15 +639,26 @@ li a {
 	
 }
 
-@media(max-width: 330px) {
+@media(max-width: 360px) {
 	#topbar {
-		font-size: 11px;
+		font-size: 10px;
 	}
 
 	#topbar-brand {
-		font-size: 11px;
+		font-size: 10px;
 	}
 }
+
+@media(max-width: 335px) {
+	#topbar {
+		font-size: 9px;
+	}
+
+	#topbar-brand {
+		font-size: 9px;
+	}
+}
+
 
 	
 
