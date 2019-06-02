@@ -313,6 +313,7 @@ li a {
 	margin-left: 15vw;
 	margin-bottom: 10px;
 	font-size: 15px;
+	color: lightgrey;
 }
 
 
@@ -351,7 +352,7 @@ li a {
 /*	height: 150px;*/
 	flex-basis: 25%;
 	-ms-flex: auto;
-	width: 259px;
+/*	width: 259px;*/
 	padding: 10px;
 	box-sizing: border-box;
 }
@@ -440,6 +441,17 @@ li a {
 	padding-bottom: 110px;
 	margin-right: 30px;
 	margin-left: 30px;
+}
+
+@media(min-width: 1450px) {
+	.w3-light-grey {
+		width: 1018px;
+	}
+	
+	.skills-text {
+		text-align: center;
+		margin-left: 0px;
+	}
 }
 
 @media(min-width: 1300px) {
