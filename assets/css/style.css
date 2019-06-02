@@ -53,8 +53,16 @@ li {
     opacity: 0.6;
 }
 
+#topbar-skills:hover {
+    opacity: 0.6;
+}
+
 #topbar-resume:hover {
     opacity: 0.6;
+}
+
+#topbar-skills {
+    margin-left: 3vw;
 }
 
 #topbar-projects {
@@ -288,10 +296,24 @@ li a {
 	color: white;
 }
 
-.w3-border-0{border:0!important}.w3-border{border:1px solid #ccc!important}
-.w3-border-top{border-top:1px solid #ccc!important}.w3-border-bottom{border-bottom:1px solid #ccc!important}
-.w3-border-left{border-left:1px solid #ccc!important}.w3-border-right{border-right:1px solid #ccc!important}
+.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{
+	color:#000;
+	background-color:#f1f1f1;
+	
+	width: 70vw;
+	margin: auto;
+	margin-bottom: 40px;
+	
+}
+
 .w3-grey,.w3-hover-grey:hover,.w3-gray,.w3-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
+
+.skills-text {
+	text-align: left;
+	margin-left: 15vw;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
 
 
 /* projects page */
@@ -399,9 +421,8 @@ li a {
 /*contact page*/
 #contact {
 	position: relative;
-/*    height: 47vh;*/
     width: 100vw;
-    background-color: #252525;
+    background-color: #191919;
 	text-align: center;
 	color: white;
 	background-size: cover;
