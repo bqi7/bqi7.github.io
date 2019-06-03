@@ -299,7 +299,7 @@ li a {
 .w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{
 	color:#000;
 	background-color:#f1f1f1;
-	width: 70vw;
+	width: 60vw;
 	margin: auto;
 	margin-bottom: 30px;
 	border-radius: 8px;
@@ -307,19 +307,17 @@ li a {
 
 .w3-grey,.w3-hover-grey:hover,.w3-gray,.w3-hover-gray:hover{
 	color:#000;
-	background-color:#9e9e9e;
+	background-color:#A8A8A8;
 	border-radius: 8px;
 }
 
 .skills-text {
 	text-align: left;
-	margin-left: 15vw;
+	margin-left: 20vw;
 	margin-bottom: 10px;
 	font-size: 13px;
 	color: lightgrey;
 }
-
-
 
 .skills-subheading {
 	font-size: 18px;
@@ -491,7 +489,7 @@ li a {
 	}
 }
 
-@media(max-width: 1160px) {
+@media(max-width: 1182px) {
 	.project-container {
     	flex-basis: 33.33%;
 	}
@@ -592,7 +590,7 @@ li a {
 	}
 }
 
-@media(max-width: 555px) {
+@media(max-width: 591px) {
 	#topbar {
 		font-size: 13px;
 	}
