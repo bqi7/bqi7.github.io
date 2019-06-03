@@ -464,15 +464,6 @@ li a {
 		text-align: center;
 		margin-left: 0px;
 	}
-	
-/*
-	.skills-subheading {
-		text-align: center;
-		margin-left: 0px;
-	}
-*/
-	
-}
 
 @media(min-width: 1300px) {
 	#name {
@@ -513,15 +504,6 @@ li a {
 		margin-right: 80px;
 	}
 }
-
-/*
-@media(max-width: 885px) {
-	#face {
-		margin-left: 0px;
-		margin-right: 80px;
-	}
-}
-*/
 
 @media(max-width: 900px) {
 	#name {
