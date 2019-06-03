@@ -290,6 +290,8 @@ li a {
     background-size: cover;
     color: white;
     background-attachment: fixed;
+	padding-right: 4vw;
+	padding-left: 4vw;
 }
 
 .subheading.sk {
@@ -315,6 +317,7 @@ li a {
 	text-align: left;
 	margin-left: 20vw;
 	margin-bottom: 10px;
+	padding-right: 20vw;
 	font-size: 13px;
 	color: lightgrey;
 }
@@ -495,7 +498,7 @@ li a {
 	}
 }
 
-@media(max-width: 978px) {
+@media(max-width: 1050px) {
 	.project-container {
 		flex-basis: 50%;
 	}
@@ -507,18 +510,20 @@ li a {
 	
 	#face {
 		margin-left: 0px;
-		margin-right: 90px;
+		margin-right: 80px;
 	}
 }
 
+/*
 @media(max-width: 885px) {
 	#face {
 		margin-left: 0px;
 		margin-right: 80px;
 	}
 }
+*/
 
-@media(max-width: 829px) {
+@media(max-width: 900px) {
 	#name {
 		font-size: 65px;
 	}
