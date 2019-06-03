@@ -464,6 +464,7 @@ li a {
 		text-align: center;
 		margin-left: 0px;
 	}
+}
 
 @media(min-width: 1300px) {
 	#name {
@@ -674,3 +675,4 @@ li a {
 		font-size: 9px;
 	}
 }
+	
