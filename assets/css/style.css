@@ -286,10 +286,10 @@ li a {
 /* skills page */
 #skills {
 	position: relative;
-	background-image: url("../img/black.jpg");
+	background-image: url("../img/black5.jpg");
     background-size: cover;
     color: white;
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
 	padding-right: 4vw;
 	padding-left: 4vw;
 }
