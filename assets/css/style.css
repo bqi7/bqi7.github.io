@@ -107,7 +107,6 @@ li a {
     background-attachment: fixed;
 }
 
-
 .fa {
   	padding: 10px;
   	font-size: 40px;
@@ -286,12 +285,22 @@ li a {
 /* skills page */
 #skills {
 	position: relative;
-	background-image: url("../img/black5.jpg");
-    background-size: cover;
-    color: white;
-/*    background-attachment: fixed;*/
+	color: white;
 	padding-right: 4vw;
 	padding-left: 4vw;
+}
+
+#skills::before {
+	content: "";
+	width: 100vw;
+    height: 100vh;
+	position: fixed;
+	top: 0;
+    left: 0;
+	background: url("../img/black5.jpg");
+	background-size: cover;
+	will-change: transform;
+	z-index: -1;
 }
 
 .subheading.sk {
