@@ -274,20 +274,14 @@ li a {
       }
 }
 
-#skills {
-	text-align: center;
-	font-size: 25px;
-    color: #565656;
-	padding-bottom: 30px;
-}
-
-
 /* skills page */
 #skills {
 	position: relative;
 	color: white;
 	padding-right: 4vw;
 	padding-left: 4vw;
+	text-align: center;
+	padding-bottom: 30px;
 }
 
 #skills::before {
@@ -299,7 +293,7 @@ li a {
     left: 0;
 	background: url("../img/black5.jpg");
 	background-size: cover;
-	will-change: transform;
+/*	will-change: transform;*/
 	z-index: -1;
 }
 
