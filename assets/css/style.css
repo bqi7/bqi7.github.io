@@ -292,6 +292,7 @@ li a {
 	top: 0;
     left: 0;
 	background: url("../img/black5.jpg");
+/*	background-color: black;*/
 	background-size: cover;
 /*	will-change: transform;*/
 	z-index: -1;
