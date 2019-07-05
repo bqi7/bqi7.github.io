@@ -282,8 +282,10 @@ li a {
 	padding-left: 4vw;
 	text-align: center;
 	padding-bottom: 30px;
+	background: url("../img/black2.jpg");
 }
 
+/*
 #skills::before {
 	content: "";
 	width: 100vw;
@@ -292,11 +294,11 @@ li a {
 	top: 0;
     left: 0;
 	background: url("../img/black5.jpg");
-/*	background-color: black;*/
 	background-size: cover;
-/*	will-change: transform;*/
 	z-index: -1;
+	filter:brightness(30%)
 }
+*/
 
 .subheading.sk {
 	color: white;
