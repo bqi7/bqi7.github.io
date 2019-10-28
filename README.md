@@ -4,4 +4,4 @@ Personal Website of Brian Qi.
 Showcases some of my software development projects and experiences.
 Created using HTML, CSS and JavaScript.
 
-![Screenshot](screenshot)
+![Screenshot](screenshot.png)
