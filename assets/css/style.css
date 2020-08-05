@@ -320,10 +320,8 @@ li a {
 }
 
 .skills-text {
-	text-align: left;
-	margin-left: 16vw;
+	text-align: center;
 	margin-bottom: 10px;
-	padding-right: 20vw;
 	font-size: 13px;
 	color: lightgrey;
 }
@@ -462,11 +460,6 @@ li a {
 @media(min-width: 1450px) {
 	.w3-light-grey {
 		width: 1018px;
-	}
-	
-	.skills-text, .skills-subheading {
-		text-align: center;
-		margin-left: 0px;
 	}
 }
 
